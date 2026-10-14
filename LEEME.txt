@@ -1,0 +1,33 @@
+LAUNCH17TH — CÓMO PUBLICAR EL SITIO PARA QUE ABRA EN MÁS PAÍSES
+
+El sitio es un solo archivo (index.html) sin dependencias externas.
+Si a alguien le sale "sin conexión", casi siempre es su internet o su país
+bloqueando github.io. La solución es publicarlo en más de un lugar y,
+mejor aún, con dominio propio.
+
+OPCIÓN 1 — Cloudflare Pages (recomendada, gratis)
+1. Creá una cuenta en cloudflare.com.
+2. En el panel: Workers & Pages > Create application > Pages > Drag and drop.
+3. Poné un nombre de proyecto y arrastrá esta carpeta (o el .zip).
+4. Te da un link tipo tu-proyecto.pages.dev.
+
+OPCIÓN 2 — Netlify (gratis)
+1. Entrá a netlify.com y creá una cuenta.
+2. Arrastrá esta carpeta para publicarla (opción "Deploy manually" / "Drop").
+
+OPCIÓN 3 — Vercel (gratis)
+1. Creá una cuenta en vercel.com y subí la carpeta como proyecto estático.
+
+DOMINIO PROPIO (lo que más ayuda)
+- Comprá un dominio (.com) y conectalo a Cloudflare Pages o Netlify.
+- Un dominio propio no depende de github.io, y si un servicio se bloquea
+  podés cambiar de proveedor sin cambiar el link que compartís.
+
+CONSEJOS
+- Compartí siempre el link con https://
+- Tené publicado el sitio en 2 lugares y pasale a cada persona el que le abra.
+- Las pantallas de cada servicio cambian: si no encontrás una opción,
+  buscá "deploy static site" en su ayuda.
+
+Si usás GitHub Pages: dejá index.html en la raíz del repositorio y activá
+Settings > Pages. El archivo .nojekyll ya está incluido.
