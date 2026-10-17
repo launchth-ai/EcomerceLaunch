@@ -1,23 +1,18 @@
-LAUNCH17TH — WEB COMPLETA
-Versión con fotografías reales y sin sección de casos reales.
+LAUNCH17TH — VERSIÓN ROJO / NEGRO
+
+Esta es la última versión de la vista privada aprobada, con las mejoras móviles, fuente Rubik y fondo animado.
 
 PUBLICACIÓN
-1. Descomprimí este ZIP.
-2. Subí todo su contenido a la carpeta pública de tu hosting (habitualmente public_html, www o equivalente).
-3. index.html debe quedar en la raíz de esa carpeta. Conservá la carpeta assets y todos los archivos CSS y JS.
-4. Abrí tu dominio y comprobá el menú, las tres tiendas y el enlace de WhatsApp.
+1. Descomprimí este archivo.
+2. Subí todo el contenido al directorio público de tu hosting.
+3. index.html debe quedar en la raíz. Conservá assets y todas sus subcarpetas.
+4. No requiere instalación, compilación ni base de datos.
+5. Si reemplazás otra versión, guardá antes una copia y comprobá la página en tu celular.
 
-Es un sitio estático: no necesita instalación, compilación, Node.js ni base de datos.
-Se puede alojar en cualquier hosting que sirva HTML, CSS, JavaScript e imágenes. Usá HTTPS para habilitar la copia del resumen; si no está disponible, el formulario permite copiar manualmente.
+Incluye portada, tres tiendas de muestra, carrusel, servicios desplegables, configurador de proyecto, carrito simulado, fotografías y fuentes locales con licencia.
 
-CONTENIDO
-Página principal, showroom, tres tiendas con fotografías locales, zoom y carrito de demostración, comparador, teléfono interactivo, antes/después, Meta Ads, servicios, configurador de proyecto y créditos fotográficos.
-La vista móvil carga demo.html dentro de un iframe del mismo sitio.
+Los productos y precios son demostrativos. No se realizan pedidos, cobros ni gestión de existencias. El configurador permite copiar un resumen: no envía mensajes automáticamente.
 
-ALCANCE
-Los precios y el carrito son demostrativos: no hay cobros, pedidos reales, inventario ni panel de administración. El formulario prepara un resumen para que el visitante lo copie y lo envíe por WhatsApp.
-Las fotografías están incluidas en assets/photos; sus autores y fuentes están en photo-credits.html. Conservá los créditos y las aclaraciones de demostración.
-El archivo robots.txt permite indexación; la visibilidad final depende del hosting y del buscador.
+La pausa detiene el movimiento; también se respeta la preferencia de movimiento reducido del dispositivo.
 
-VERIFICACIÓN
-Se verificaron archivos, enlaces locales, lógica del configurador y carrito. Queda pendiente una revisión visual completa en navegador en tu hosting.
+Se verificaron estructura, referencias y lógica. La revisión visual completa en navegador y celular queda pendiente.

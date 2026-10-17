@@ -1,0 +1,20 @@
+ECOMERCELAUNCH / LAUNCH17TH — PAQUETE PARA GITHUB PAGES
+
+IMPORTANTE: este paquete conserva la estructura del proyecto recibido. La carpeta assets/photos contiene las fotografías.
+
+PUBLICACIÓN RECOMENDADA (sin borrar el repositorio):
+1. Hacé una copia de seguridad de la carpeta local del repositorio.
+2. Copiá el CONTENIDO de esta carpeta a la carpeta local del repositorio, manteniendo la estructura.
+3. Si Windows pregunta si querés combinar carpetas, combiná. Si pregunta por reemplazar archivos, revisá que estás en la carpeta correcta y aceptá para actualizar la versión local con esta versión.
+4. Abrí GitHub Desktop, revisá los cambios, escribí un resumen y hacé Commit to main.
+5. Pulsá Push origin para subirlos.
+6. Esperá a que GitHub Pages publique y probá la página.
+
+NO subas la carpeta EcomerceLaunch-Rojo-Listo como una carpeta anidada dentro del repositorio. Los archivos index.html, demo.html, styles.css y assets deben quedar en la raíz del repositorio.
+
+VERIFICACIÓN REALIZADA EN ESTE PAQUETE:
+- Se comprobaron las referencias locales estáticas en HTML, CSS y JavaScript.
+- No se encontraron referencias estáticas a archivos locales inexistentes en el ZIP.
+- Se conservan las fotografías en assets/photos y los archivos de fuentes en assets/fonts.
+
+Nota: esta comprobación local no garantiza por sí sola que GitHub Pages ya esté sirviendo la nueva versión; hay que subir los cambios y comprobar la publicación.

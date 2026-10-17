@@ -1,0 +1,58 @@
+@font-face{font-family:Rubik;src:url('assets/fonts/Rubik-Regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:Rubik;src:url('assets/fonts/Rubik-Bold.woff') format('woff');font-weight:500 900;font-style:normal;font-display:swap}
+:root{font-family:Rubik,Arial,sans-serif;--red:#ff554b;--paper:#070708;--ink:#f7f3ed;--muted:#b4b0ac;background:#070708}
+body{position:relative;isolation:isolate;background:transparent}
+.living-black{position:fixed;inset:0;z-index:-1;background:#070708;pointer-events:none;overflow:hidden;contain:strict}
+.red-light{position:absolute;border-radius:50%;width:90vmax;height:75vmax;background:radial-gradient(ellipse at center,#c4292333 0%,#7610191c 33%,transparent 65%);animation:red-drift 23s ease-in-out infinite alternate;transform:translate3d(0,0,0)}
+.red-light-one{top:-25%;right:-35%}.red-light-two{bottom:-38%;left:-40%;width:95vmax;height:90vmax;background:radial-gradient(ellipse at center,#fa3b2930 0%,#750f1517 35%,transparent 68%);animation:red-drift-two 29s ease-in-out infinite alternate}
+.background-grid{position:absolute;inset:0;background-image:linear-gradient(#ffffff03 1px,transparent 1px),linear-gradient(90deg,#ffffff03 1px,transparent 1px);background-size:90px 90px;mask-image:linear-gradient(transparent,#0006,transparent)}
+.header{background:#070708d9}.logo{letter-spacing:-.065em}.logo i,.star-badge,.red-period{color:var(--red)}
+.header-contact,.button,.contact .button{background:var(--red);color:#190907}
+.button:hover,.header-contact:hover{background:#ff746a;box-shadow:0 6px 30px #ff554b25}
+.hero h1{font-family:Rubik,Arial,sans-serif;font-size:clamp(65px,7.2vw,106px);font-weight:700;letter-spacing:-.065em;line-height:1.03}
+.hero h1>span:not(.red-period){color:var(--red)}.hero .red-period{color:var(--green)}
+.hero .lead{font-size:19px;max-width:430px;color:#c5bfb9}.hero-note{font-size:13px;color:#aaa49d}.tiny-cross{color:var(--red)}
+.status-dot{background:var(--red);box-shadow:0 0 20px #ff554b77}.hero .eyebrow{font-size:12px}
+.hero-universe:before{background:radial-gradient(ellipse,#ff49332b,transparent 65%)}.orbit{border-color:#ff554b35}.orbit-two{border-color:#ff554b20}
+.ribbon{background:var(--red);color:#150908}.ribbon span{font-size:20px;font-weight:700}
+h2{font-family:Rubik,Arial,sans-serif;font-size:clamp(42px,5vw,72px);letter-spacing:-.055em;font-weight:700;line-height:1.07}
+h2 em{color:var(--red)}.section-head p:last-child{font-size:16px;color:#b9b0a8}
+.showroom{background:transparent}.showcase-atmosphere .glow-form{background:radial-gradient(ellipse at 25% 55%,#9a4a3922,transparent 70%)}
+.services{background:#100c0ce8;border-color:#ff554b22}.service-layout h2{font-size:clamp(38px,4.5vw,62px)}
+.service-layout>div>p:not(.eyebrow){font-size:17px;color:#b9b3ab}.service-list summary strong{font-size:26px}.service-list summary small{font-size:14px;color:#a7a198}.service-list .expand-icon,.service-num,.service-list details[open] strong{color:var(--red)}
+.service-list details>p{font-size:16px;line-height:1.7;color:#bcb5ab}.ads-note{border-left:3px solid var(--red);background:#160c0b}.ads-note strong{font-size:17px}.ads-note p{font-size:15px}
+.steps li{border-color:#ff554b66}.steps li:before{background:var(--red);box-shadow:0 0 10px #ff554b55}.steps span{color:var(--red)}.steps h3{font-size:26px}.steps p{font-size:16px;color:#b9b1a9}
+.investment{background:#e94b40;color:#190a08}.investment .eyebrow,.investment h2 em{color:#360e09}.investment-layout>div>p:not(.eyebrow){color:#341411;font-size:18px}
+.price-card{background:#110c0b;color:#fff1e8;box-shadow:12px 18px 0 #4d100d33;border-color:#ffffff40}.price-card>span{color:#d6b1a7}.price-card p{color:#cfbdb3!important;font-size:15px}.price-card small{color:#bca69c;font-size:12px}.price-card .button{background:var(--green);color:#102008;font-size:14px}
+.faq-side h2{font-size:56px}.faq-side p{font-size:17px}.faq summary{font-size:16px}.faq summary span{color:var(--red)}.faq details p{font-size:16px;color:#b9b0a7}
+.project-disclosure{background:#140e0ef2;border-color:#ff554b66}.project-disclosure>summary strong{font-size:42px;color:#fff0e6}.project-disclosure>summary>.expand-icon{color:var(--red);border-color:#ff554b88}.project-disclosure>summary>span>span:last-child{color:#bdb0a4;font-size:16px}
+.contact{background:#0c0909c9;border-top-color:#ff554b40}.contact h2{font-size:clamp(60px,8.4vw,120px);letter-spacing:-.065em}.contact h2 em{color:var(--red)}.contact h2>span{color:var(--green)}
+.mobile-contact{background:#1a0e0df5;border-color:#ff554b88}.mobile-contact a{background:var(--red);color:#190907}.mobile-contact>div>span{color:#f8e4d6}.mobile-contact button{color:#efb7a8}
+footer .logo span{color:var(--red)}footer>span,footer>a:not(.logo){color:#b0a59b}
+@keyframes red-drift{0%{transform:translate3d(0,0,0) scale(1);opacity:.65}100%{transform:translate3d(-16%,20%,0) scale(1.08);opacity:1}}
+@keyframes red-drift-two{0%{transform:translate3d(0,0,0);opacity:.65}100%{transform:translate3d(20%,-13%,0);opacity:1}}
+@media(max-width:1000px){.hero h1{font-size:68px}.hero .lead{font-size:17px}.service-list summary strong{font-size:24px}}
+@media(max-width:600px){
+ .header .logo{font-size:23px}.header-contact{font-size:12px}.header nav{font-size:13px}
+ .hero h1{font-size:clamp(54px,15.8vw,78px);line-height:1.04;letter-spacing:-.065em;margin-bottom:26px}
+ .hero .eyebrow{font-size:11px;letter-spacing:.065em}.hero .lead{font-size:17px;line-height:1.65;max-width:355px}
+ .hero .button{font-size:15px;padding:17px 22px;min-height:54px}.hero .text-link{font-size:14px}.hero .actions{gap:18px}.hero-note{font-size:12px;line-height:1.5}
+ h2,.service-layout h2{font-size:clamp(39px,11.8vw,52px);line-height:1.09;letter-spacing:-.055em}
+ .section-head p:last-child{font-size:16px;line-height:1.65}.eyebrow{font-size:12px;line-height:1.5;letter-spacing:.07em}
+ .ribbon span{font-size:16px}.ribbon{padding-block:18px}
+ .store-details summary span span{font-family:Rubik,Arial,sans-serif;font-size:28px;line-height:1.14;letter-spacing:-.045em;max-width:none}
+ .store-details summary small{font-size:12px}.store-description p{font-size:16px}.store-description .button{font-size:14px}
+ .showcase-tabs button strong{font-size:20px}.showcase-tabs button{font-size:11px}.carousel-bar{font-size:12px}.caption{font-size:12px;line-height:1.7}
+ .service-layout>div>p:not(.eyebrow){font-size:17px}.service-list summary strong{font-size:24px;line-height:1.15}.service-list summary small{font-size:14px;line-height:1.5}
+ .service-list summary{gap:13px}.service-list details>p{font-size:16px;padding-left:0}.service-num{font-size:12px}
+ .ads-note strong{font-size:16px}.ads-note p{font-size:15px}.ads-note{padding:20px 16px}
+ .steps h3{font-size:24px;line-height:1.2}.steps p{font-size:15px;line-height:1.65}.steps{gap:28px 20px}
+ .investment h2{font-size:clamp(42px,12vw,54px)}.investment-layout>div>p:not(.eyebrow){font-size:17px}.price-card p{font-size:15px}.price-card small{font-size:12px}.price-card .button{font-size:14px}.price{font-size:82px}
+ .faq-side h2{font-size:44px}.faq-side p{font-size:16px}.faq summary{font-size:16px;line-height:1.45}.faq details p{font-size:16px}
+ .project-disclosure>summary strong{font-size:34px;line-height:1.1}.project-disclosure>summary>span>span:last-child{font-size:15px;line-height:1.5}
+ .contact h2{font-size:clamp(46px,13.5vw,66px);line-height:1.08}.contact h2>span{font-size:44px}.contact .eyebrow{font-size:12px}.contact .button{font-size:15px;padding:17px 22px}
+ .mobile-contact>div>span{font-size:13px}.mobile-contact a{font-size:14px}.red-light{width:120vw;height:110vh}.red-light-one{right:-35%;top:-18%}.red-light-two{width:130vw;height:110vh;left:-50%;bottom:-30%}.background-grid{background-size:60px 60px}
+}
+@media(max-width:360px){.hero h1{font-size:52px}.header-contact{font-size:11px}.store-details summary span span{font-size:26px}.service-list summary strong{font-size:22px}.project-disclosure>summary strong{font-size:30px}.mobile-contact>div>span{font-size:11px}.mobile-contact a{font-size:12px}.steps h3{font-size:22px}.contact h2{font-size:45px}}
+.motion-paused .red-light{animation-play-state:paused!important;animation:none!important}.page-inactive .red-light{animation-play-state:paused!important}
+@media(prefers-reduced-motion:reduce){.red-light{animation:none!important;transform:none!important}.background-grid{opacity:.5}}
