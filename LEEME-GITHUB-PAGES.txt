@@ -1,0 +1,13 @@
+ECOMERCELAUNCH — ARCHIVOS LISTOS PARA GITHUB PAGES
+
+IMPORTANTE: estos archivos deben quedar en la RAÍZ del repositorio EcomerceLaunch.
+No subas este ZIP sin extraerlo.
+
+1. Extrae el ZIP en tu computadora.
+2. En GitHub, abre el repositorio launchth-ai/EcomerceLaunch.
+3. Sube el CONTENIDO de esta carpeta, no la carpeta contenedora completa y no el ZIP.
+4. Conserva la carpeta assets completa, incluida assets/photos.
+5. Si GitHub pregunta si deseas reemplazar archivos existentes, no borres nada hasta comparar; reemplaza únicamente con esta versión completa cuando estés seguro de que es el proyecto correcto.
+6. Espera a que GitHub Pages termine de publicar y revisa https://launchth-ai.github.io/EcomerceLaunch/index.html#showroom
+
+Se verificaron las referencias locales encontradas en HTML, CSS y JavaScript del ZIP original; no se detectaron referencias locales a archivos inexistentes.
