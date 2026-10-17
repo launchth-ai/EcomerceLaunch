@@ -1,0 +1,25 @@
+<svg width="720" height="820" viewBox="0 0 720 820" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lámpara escultural de cerámica, visual de muestra">
+<defs>
+ <linearGradient id="wall" x1="35" y1="0" x2="698" y2="832" gradientUnits="userSpaceOnUse"><stop stop-color="#CBD0B9"/><stop offset=".55" stop-color="#AEB89A"/><stop offset="1" stop-color="#7C8F73"/></linearGradient>
+ <linearGradient id="shade" x1="227" y1="170" x2="474" y2="354" gradientUnits="userSpaceOnUse"><stop stop-color="#F9F3E6"/><stop offset=".3" stop-color="#E2D5BF"/><stop offset=".73" stop-color="#B8AB96"/><stop offset="1" stop-color="#746F63"/></linearGradient>
+ <linearGradient id="base" x1="235" y1="345" x2="480" y2="708" gradientUnits="userSpaceOnUse"><stop stop-color="#F3E3C8"/><stop offset=".22" stop-color="#CBB99D"/><stop offset=".56" stop-color="#A18C76"/><stop offset=".9" stop-color="#776954"/><stop offset="1" stop-color="#49473A"/></linearGradient>
+ <radialGradient id="spot"><stop stop-color="#F3F0DC" stop-opacity=".87"/><stop offset="1" stop-color="#F3F0DC" stop-opacity="0"/></radialGradient>
+ <linearGradient id="floor" x1="0" y1="620" x2="720" y2="820"><stop stop-color="#A5B092"/><stop offset="1" stop-color="#6C806D"/></linearGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="29"/></filter>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch" result="noise"/><feColorMatrix in="noise" type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".075"/></feComponentTransfer></filter>
+</defs>
+<rect width="720" height="820" fill="url(#wall)"/>
+<circle cx="372" cy="255" r="385" fill="url(#spot)"/>
+<path d="M0 608 C140 573 415 607 720 556V820H0V608Z" fill="url(#floor)"/>
+<ellipse cx="403" cy="711" rx="195" ry="47" fill="#27362B" opacity=".5" filter="url(#soft)"/>
+<path d="M292 319 L433 319 C420 348 411 370 411 389 C411 440 466 481 471 545 C478 634 449 683 405 701 C367 718 290 706 261 681 C222 646 226 593 235 545 C244 492 308 431 310 384 C311 360 303 342 292 319Z" fill="url(#base)"/>
+<path d="M292 319 L433 319 C424 345 414 371 413 389 C413 436 459 488 467 541 C444 594 420 637 386 673 C348 710 295 701 260 680 C230 658 226 607 240 542 C248 488 311 434 311 389 C311 360 303 343 292 319Z" fill="url(#base)"/>
+<path d="M300 326 C338 355 316 408 294 449 C260 512 252 561 258 605 C264 661 287 676 302 684" stroke="#F5E8D0" stroke-opacity=".55" stroke-width="21" stroke-linecap="round"/>
+<path d="M355 348 C353 414 394 457 406 521 C418 581 412 638 402 686" stroke="#594E43" stroke-opacity=".18" stroke-width="28" stroke-linecap="round"/>
+<path d="M260 329 C276 284 298 230 306 176 C320 150 393 143 415 177 C421 220 443 286 461 329 C462 346 435 359 357 361 C282 362 259 346 260 329Z" fill="url(#shade)"/>
+<path d="M276 319 C291 272 309 222 319 173 C335 152 388 151 401 175 C412 226 430 275 448 317" stroke="#FFF7E8" stroke-opacity=".54" stroke-width="9" stroke-linecap="round"/>
+<path d="M261 332 C290 345 424 347 461 331" stroke="#726C60" stroke-opacity=".46" stroke-width="12" stroke-linecap="round"/>
+<ellipse cx="361" cy="164" rx="57" ry="14" fill="#DFD2BC"/>
+<ellipse cx="361" cy="164" rx="47" ry="8" fill="#B0A38F"/>
+<rect width="720" height="820" filter="url(#grain)" opacity=".42"/>
+</svg>
