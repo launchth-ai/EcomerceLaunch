@@ -1,0 +1,4 @@
+.ic{display:inline-block;width:1em;height:1em;flex:none;vertical-align:-.14em;fill:none;color:inherit;overflow:visible}
+.ic-star{vertical-align:middle}
+.star-badge{display:flex;align-items:center;justify-content:center}
+.button .ic,.header-contact .ic,.text-link .ic,.mini-link .ic{width:1.05em;height:1.05em;margin-left:.2em}
